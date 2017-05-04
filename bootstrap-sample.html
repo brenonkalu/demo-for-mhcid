@@ -8,15 +8,24 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <style>
-      div.col-md-4, div.col-md-6 {
+      div.col-md-4, div.col-lg-6 {
         border: 1px solid black;
         background: blue;
+        font-color: white;
+      }
+      
+      div.col-sm-12 {
+        border: 2px dotted black;
+        background: red;
+        font-color: white;
       }
     </style>
   </head>
   
   <body>
     <h1>Hello, Brenon!</h1>
+    
+    <img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/8/8d/New_York_NYC.jpg" alt="statue of liberty"/>
     
     <div class="container">
       <div class="row text-center">
@@ -32,39 +41,28 @@
       </div>
       
       <div class="row text-center">
-        <div class="col-md-12">
+        <div class="col-sm-12">
             Concrete Jungle
         </div>
       </div>
       
       <div class="row text-center">
-        <div class="col-md-6">
+        <div class="col-lg-6">
             Where Dreams Are
         </div>
-        <div class="col-md-6">
+        <div class="col-lg-6">
             Made Of!
         </div>
       </div>
     </div>
     
-<!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-<button type="button" class="btn btn-primary">Primary</button>
-
-<!-- Indicates a successful or positive action -->
-<button type="button" class="btn btn-success">Success</button>
-
-<!-- Contextual button for informational alert messages -->
-<button type="button" class="btn btn-info">Info</button>
-
-<!-- Indicates caution should be taken with this action -->
-<button type="button" class="btn btn-warning">Warning</button>
-
-<!-- Indicates a dangerous or potentially negative action -->
-<button type="button" class="btn btn-danger">Danger</button>
+    <div class="container">
+<!-- Primary button large -->
+<button type="button" class="btn btn-primary btn-lg">Go to New York!</button>
     
-At least three rows with responsive columns.  At least one of the rows should stack when the browser window width shrinks.
+<p>At least three rows with responsive columns.  At least one of the rows should stack when the browser window width shrinks.
 At least one button as described on Documentation -> Components.
-At least one responsive image.
+  At least one responsive image.</p>
     
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
